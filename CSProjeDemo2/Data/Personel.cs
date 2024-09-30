@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSProjeDemo2.Data
 {
-    internal class Personel
+    public abstract class Personel
     {
+        public string Name { get; set; }
+
+        public string Title { get; set; }
+
+        public abstract int MaasHesapla();
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CSProjeDemo2.Data
 {
-    internal class Yonetici
+    public class Yonetici : Personel
     {
+        public override int MaasHesapla()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

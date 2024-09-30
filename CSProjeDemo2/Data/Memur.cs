@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CSProjeDemo2.Data
 {
-    internal class Memur
+    public class Memur : Personel
     {
+        public override int MaasHesapla()
+        {
+           
+        }
     }
 }
